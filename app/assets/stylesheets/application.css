@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+
+#gallery-logo {
+  max-width: 40%;
+}
+
+.btn-1 {
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.log-in {
+  background-color: #eb5746;
+}
+
+.log-out {
+  background-color: #727172;
+}
