@@ -1,6 +1,7 @@
 ![](https://img.shields.io/badge/NGENI.io-Developers-%23CC342D.svg?style=for-the-badge)
 
 # Image-Gallery-App
+![](screenshot.png)
 ### About the project
 
 > Image-Gallery-App is a gallery store app which enable users to upload their pictures tagging them with title, and description.
