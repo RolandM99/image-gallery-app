@@ -14,8 +14,51 @@
  *= require_self
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:wght@700&display=swap');
+
+body {
+  font-family: 'Bona Nova', serif;
+}
+
 #gallery-logo {
   max-width: 40%;
+}
+
+.sign-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#btn-log {
+  background-color: #eb5746;
+  border: none;
+}
+
+.create {
+  background-color: #eb5746;
+  border: none;
+  margin: auto;
+}
+
+#btn-sign {
+  background-color: #eb5746;
+  border: none;
+}
+
+.delete {
+  background-color: #eb5746;
+  color: white;
+}
+
+.back {
+  background-color: #727172;
+}
+
+#logo {
+  max-width: 30%;
+  margin-top: 20px;
+  padding: 10px;
 }
 
 .btn-1 {
@@ -23,10 +66,78 @@
   margin-top: 70px;
 }
 
+.carte {
+  box-shadow: rgba(0, 0, 0, 0.678) 0 4px 18px 4px;
+  border-radius: 40px 0;
+  background-color: #eb5746;
+  padding-top: 24px;
+  padding-bottom: 18px;
+  margin-top: 30px;
+}
+
 .log-in {
   background-color: #eb5746;
 }
 
+.img-pic {
+  width: 240px;
+  height: 320px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  margin: auto;
+}
+
 .log-out {
   background-color: #727172;
+}
+
+.back-header {
+  display: flex;
+  justify-content: space-evenly;
+  height: 60px;
+  background-color: #eb5746;
+  color: white;
+}
+
+svg {
+  margin-top: 12px;
+  margin-left: -45px;
+}
+
+.sign-out {
+  color: white;
+  text-decoration: none;
+}
+
+.out {
+  margin-top: 12px;
+}
+
+.link {
+  color: white;
+}
+
+#pictures {
+  grid-template-columns: repeat(4, 270px);
+  gap: 40px;
+}
+
+.bi-upload {
+  margin-left: 115px;
+}
+
+.img-upload {
+  margin-top: 12px;
+  position: absolute;
+}
+
+@media screen and (min-width: 768px) {
+  #pictures {
+    justify-content: center;
+    width: 90%;
+    display: grid;
+    position: static;
+    margin-top: 80px;
+    margin-bottom: 100px;
+  }
 }
