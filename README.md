@@ -61,7 +61,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Heartfelt thanks to Microverse
+- Heartfelt thanks to Ngeni.io Developers
 
 ## 📝 License
 
