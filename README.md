@@ -1,7 +1,9 @@
 ![](https://img.shields.io/badge/NGENI.io-Developers-%23CC342D.svg?style=for-the-badge)
 
 # Image-Gallery-App
-![](screenshot.png)
+
+|![](screenshot.png)|![](mobile.png)|
+|-------------------|---------------|
 ### About the project
 
 > Image-Gallery-App is a gallery store app which enable users to upload their pictures tagging them with title, and description.
@@ -28,12 +30,13 @@ To get a local copy up and running follow these simple example steps:
 
 ### Install
 
-* After completing the setup section, type `bundle install`
+* After completing the setup section, type `bundle install` then `npm install`
 
 ### Running the app
 
 - Run `rake db:create:all` and `rake db:migrate`
 - Run `rake db:seed` to populate the database with some sample data.
+- Run `rubocop -A` and `npx stylelint "**/* .css --fix"`to fix linter automatically.
 - Run `rails s` to start the server.
 - In your browser, go to http://localhost:3000.
 
