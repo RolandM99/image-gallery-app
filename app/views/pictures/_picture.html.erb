@@ -1,0 +1,15 @@
+<div class="carte">
+<%= link_to picture_path(picture.id) do%>
+<div id="<%= dom_id picture %>">
+
+  <% if picture.photo.attached? %>
+    <img class="img-pic" src="<%=(url_for(picture.photo))%>">
+  <% end %>
+  <p class="my-2">
+    <strong class="block font-medium mb-1">Title: <%= picture.title %> </strong>
+  </p>
+  <p class="my-2" class="block font-medium mb-1">Description: <%= picture.description %></p>
+
+</div>
+<% end%>
+</div>

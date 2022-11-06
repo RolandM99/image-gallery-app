@@ -11,6 +11,9 @@ gem 'rails', '~> 7.0.4'
 # add devise for authentication
 gem 'devise'
 
+gem 'image_processing', '~> 1.12', '>= 1.12.1'
+gem 'shrine', '~> 3.3'
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
 
