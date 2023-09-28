@@ -6,7 +6,7 @@
 |-------------------|---------------|
 ### About the project
 
-> Image-Gallery-App is a gallery store app which enable users to upload their pictures tagging them with the title, and description.
+> Image-Gallery-App is a gallery store app that enables users to upload their pictures tagging them with the title, and description.
 
 ## Built With
 
